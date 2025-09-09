@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<address SYSTEM = "address.dtd">
+<students>
+<name>harsha</name>
+<roll>31</roll>
+<section>c1</section>
+<phone>9111111</phone>
+<e-mail>harsha@gmail</e-mail>
+<college>sru</college>
+<area>hanamakonda</area>
+</students>
+<students>
+<name>harsha</name>
+<roll>2203A51162</roll>
+<section>c1</section>
+<phone>91337545</phone>
+<e-mail>raju@gmail</e-mail>
+<college>sru</college>
+<area>alakathuthi</area>
+</students>
+</address>
+

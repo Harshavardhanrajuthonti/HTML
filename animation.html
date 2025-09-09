@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+div{
+width:100px;
+height:100px;
+background:red;
+position:relative;
+animation:mymove 5s 100;
+animation direction:alternative;
+}
+@keyframes mymove{
+0% {background:red;left:0px;top:0px;}
+25% {background:yellow;left:200px;top:0px;}
+50% {background:blue;left:200px;top:200px;}
+75% {background:green;left:0px;top:200px;}
+100% {background:red;left:0px;top:0px;}
+}
+</style>
+</head>
+<body>
+<h1>the animation property</h1>
+<p>Move an element from 0px to 200px left</p>
+<div></div>
+</body>
+</html>
+
+
+

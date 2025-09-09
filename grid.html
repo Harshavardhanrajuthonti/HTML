@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+.container{
+display:grid;
+height:700px;
+grid-template-columns:1fr 2fr 1fr 2fr;
+grid-template-rows:2fr 1fr 2fr 2fr;
+grid-gap:0.2rem;
+grid-template-areas:
+"har har hari hari"
+"side container1 container2 container3"
+"side container1 container2 container3"
+"side footer footer footer"
+}
+har{
+background-color:skyblue;
+grid-area:har;
+}
+hari{
+background-color:lavender;
+grid-area:hari;
+}
+hrs{
+background-color:grey;
+grid-area:side;
+}
+.container1{
+background-color:red;
+grid-area:container1;
+}
+.container2{
+background-color:pink;
+grid-area:container2;
+}
+.container3{
+background-color:yellow;
+grid-area:container3;
+
+}
+footer{
+background-color:orange;
+grid-area:footer;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<har>haeding</har>
+<hari>main</hari>
+<hrs>side</hrs>
+<div class="container1">container1</div>
+<div class="container2">container2</div>
+<div class="container3">container3</div>
+<footer>footer</footer>
+</div>
+</body>
+</html>

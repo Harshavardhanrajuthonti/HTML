@@ -1,0 +1,17 @@
+body
+{
+background-image:url("https://wallpaperaccess.com/full/8002088.jpg");
+background-repeat:center;
+background-position:top-right;
+background-size:300px;
+}
+#yellow
+{
+color:yellow;
+padding-top:20px;
+}
+.pink
+{
+color:pink;
+padding-top:10px;
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE address[
+<!ELEMENT address (students+)>
+<!ELEMENT students (name,roll,section, phone,e-mail,year,college,area)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT section (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT e-mail (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT college (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+]>

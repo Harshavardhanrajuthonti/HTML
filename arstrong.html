@@ -1,0 +1,25 @@
+<html>
+<head>
+<script>
+var num = parseInt(prompt("Enter the number"));
+var x , arm = 0 ,m = num;
+
+while(num > 0)
+{
+x = num%10;
+arm = arm+x*x*x;
+num = parseInt(num/10);
+}
+if(m == arm)
+{
+alert("the given number is armstrong");
+}
+else
+{
+alert("the given number is not a armstrong");
+}
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+<script>
+function operators()
+{
+var num1 = parseInt(document.getElementById("num1").value);
+var num2 = parseInt(document.getElementById("num2").value);
+if(num1 && num2)
+{
+res = num1+num2;
+add = document.getElementById("add").value = res;
+res = num1-num2;
+add = document.getElementById("sub").value = res;
+res = num1*num2;
+add = document.getElementById("mul").value = res;
+res = num1/num2
+add = document.getElementById("div").value = res;
+}
+}
+</script>
+<body>
+num1 = <input type ="text" id ="num1"/>
+num2 = <input type = "text" id="num2"/>
+<input type ="button" onclick="operators()" value = "operators"/> 
+add = <input id ="add"><br><br>
+sub = <input id ="sub"><br><br>
+mul = <input id ="mul"><br><br>
+div = <input id ="div"><br><br>
+</body>
+</html>
+
